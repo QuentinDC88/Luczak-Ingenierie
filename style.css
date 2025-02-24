@@ -44,3 +44,19 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
+img {
+    max-width: 200px;  /* Réduit la largeur à 200px */
+    height: auto;  /* Garde les proportions */
+    display: block;  /* Évite l’espace supplémentaire sous l’image */
+    margin: 0 auto;  /* Centre l’image */
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    max-width: 100px; /* Taille du logo */
+    margin-right: 20px; /* Espace entre l'image et le texte */
+}
