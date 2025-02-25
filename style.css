@@ -51,12 +51,9 @@ img {
     margin: 0 auto;  /* Centre l’image */
 }
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header img {
-    max-width: 100px; /* Taille du logo */
-    margin-right: 20px; /* Espace entre l'image et le texte */
+    background-image: url("images/logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px; /* Ajuste la hauteur de la bannière */
 }
