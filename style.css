@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'sofia pro', sans-serif;
     background-color: #0a0a0a;
     color: white;
     text-align: center;
@@ -56,4 +56,51 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     height: 150px; /* Ajuste la hauteur de la bannière */
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F8F8F8; /* Fond clair */
+    color: #2D2D2D;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-weight: 600;
+    color: #5B3E91; /* Couleur violette */
+}
+
+p {
+    font-size: 18px;
+    color: #3A86FF;
+}
+
+.section {
+    width: 80%;
+    margin: auto;
+    padding: 50px 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.highlight {
+    font-weight: bold;
+    color: #8338EC;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F4A261; /* Jaune orangé */
+}
+
+.btn {
+    background: linear-gradient(135deg, #3A86FF, #8338EC);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
 }
